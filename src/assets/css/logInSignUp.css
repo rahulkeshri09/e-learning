@@ -1,0 +1,115 @@
+.logInSignUp-container{
+    background-image: url('../images/austin-distel-wD1LRb9OeEo-unsplash\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+}
+.logo-container{
+    width:40%;
+    background-image: linear-gradient(45deg,#100018 0%,#26006c 50%,#110038 100%);
+    opacity: 0.9;
+}
+.form-container{
+    width: 60%;
+    background-color: white;
+    padding: 100px 0px;
+}
+.logInSignUp-main-heading{
+    border-left:5px solid #f7b205 ;
+    padding-left: 10px;
+}
+.logInSignUp-main-heading h1{
+    padding: 0px;
+    margin: 0px;
+}
+.logInSignUp-main-heading p{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2px;
+}
+.logInSignUp-sub-heading{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.form-container form{
+    width:22em;
+    margin-top: 20px;
+}
+.form-container form input{
+    border: none;
+    height: 50px;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.radio-label{
+    margin-left: 10px;
+    margin-top:5px;
+}
+.forgot-pwd-btn{
+    color:#4c1864;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.logIn-signup-btn{
+    border: none;
+    background-color: #f7b205;
+    width:125px;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.logIn-signup-btn:hover{
+    background-color: #4c1864;
+    color: white;
+}
+.social-media-login-sign-up{
+    width:44%;
+    margin-top: 10px;
+}
+.social-media-login-sign-up h4{
+    margin-bottom: 10px;
+}
+.fb-btn{
+    background-color: #3B5998;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.fb-btn:hover{
+    opacity: 0.8;
+}
+.google-btn{
+    background-color:#e5513f;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.google-btn:hover{
+    opacity: 0.8;
+}
+@media only screen and (max-width:1100px){
+    .logInSignUp-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        width:100%;
+        padding: 50px 0px;
+    }
+    .form-container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:670px){
+    .social-media-login-sign-up{
+        width: 85%;
+    }
+    
+}

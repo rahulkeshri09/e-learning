@@ -1,0 +1,332 @@
+/* ---------firsComponent css ----------------*/
+.firstComponent{
+    padding: 50px;
+    padding-bottom: 90px;
+    flex-direction: column;
+    background-image:linear-gradient(45deg,#100018 0%,#26006c 50%,#110038 100%);
+    opacity: 0.9;
+}
+.main-heading{
+    margin-top: 20%;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+.main-subheading{
+    margin-top: -20px;
+    font-size: 25px;
+}
+#main-info-container{
+    width: 60%;
+}
+.short-info-container{
+    border: 1px solid gray;
+    padding: 20px;
+    width: 190px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color:rgba(255,255,255,0.2);;
+}
+.icon-size{
+    font-size: 40px;
+    padding-right:10px ;
+}
+.short-info-size{
+    font-size: 35px;
+    margin: 0px;
+    padding-top: 0px;
+}
+.info-paragraph{
+    font-size: 16px;
+    font-weight: 550;
+}
+@media only screen and (max-width:1100px){
+    #main-info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .short-info-container{
+        margin-top: 20px;
+    }
+    .main-heading{
+        font-size: 30px;
+    }
+    .main-subheading{
+        font-size: 20px;
+    }
+}
+/*------------second component ------------*/
+.secondComponent{
+    margin-top:-8px;
+    background-color:white;
+    padding: 100px;
+}
+#secondComponent-heading-container{
+    width: 50%;
+}
+.img-container{
+    position: relative;
+}
+.read-more-btn{
+    position: absolute;
+    background-color: #f7b205;
+    bottom: 4px;
+    width:0px;
+    height: 45px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.read-more-btn:hover{
+    background-color: rgb(113, 83, 196);
+    color: white;
+}
+.read-more-btn div{
+    font-size: 13px;
+    padding: 15px 20px;
+    white-space: nowrap;
+}
+.hr-style{
+    border-left: 10px solid #f7b205;
+    padding-left:10px ;
+    font-size: 2em;
+}   
+.courses-container{
+    margin-top: -80px;
+    flex-direction: column;
+}
+.secondComponent-button{
+    border: none;
+    background-color:#f7b205;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.secondComponent-button:active{
+    background-color:rgb(113, 83, 196);
+    text-decoration: none;
+}
+.courses-info-container{
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.courses-info-container::-webkit-scrollbar {
+    display: none;
+  }
+.courses-info{
+    min-width: 250px;
+    margin: 40px 21px;
+}
+.courses-info:hover .read-more-btn{
+    width: 110px;
+}
+@media only screen and (max-width:1100px){
+    #secondComponent-heading-container{
+        width: 100%;
+    }
+    .secondComponent{
+        padding: 50px 10px;
+    }
+    .courses-container{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:670px){
+    .courses-info{
+        min-width:250px;
+        margin: 40px 21px;
+    }
+    .courses-container{
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .courses-info-container{
+        width: 85%;
+        order: 1;
+    }
+    #scroll-btn{
+        order:2;
+    }
+}
+/*---------Coures-info -----------------*/
+.box-shadow{
+    box-shadow:-2px 5px 20px 10px #dbdbdb, 0px -2px 20px 10px #dbdbdb;
+}
+/*--------Third component-----------*/
+.thirdComponent{
+    padding: 50px;
+    padding-bottom: 90px;
+    flex-direction: column;
+    background-image:linear-gradient(45deg,#100018 0%,#26006c 50%,#110038 100%);
+    opacity: 0.9;
+}
+.main-heading2{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.info-paragraph2{
+    font-weight: lighter;
+    width:70%;
+    line-height: 24px;
+    font-size: 16px;
+    opacity: 0.8;
+    text-align: center;
+}
+.join-btn{
+    background-color:#f7b205;
+    border: none;
+    margin-top: 10px;
+    padding: 15px 30px;;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    opacity: initial;
+
+}
+.join-btn:hover{
+    background-color: #4c1864;
+}
+
+.join-btn:hover .rm-decoration{
+    color: white;
+}
+/*----------fourth component--------------*/
+.fourthComponent{
+    background-color: white;
+    margin-top: -22px;
+    padding: 100px;
+}
+#fourthComponent-container1{
+    width: 50%;
+    padding: 30px;
+}
+#fourthComponent-container1 .info-paragraph2{
+    text-align:unset;
+    width: 100%;
+}
+.motive{
+    width:40%;
+}
+.trophyIcon{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.trophyIcon img{
+    height:50px;
+    width: 50px;;
+}
+#fourthComponent-container2{
+    width: 43%;
+}
+#fourthComponent-container2 .info-paragraph2{
+    text-align:unset;
+    width: 100%;
+}
+@media only screen and (max-width:1100px){
+    .fourthComponent{
+        padding: 20px;
+        padding-top: 50px;
+    }
+    #fourthComponent-container1{
+        width: 100%;
+    }
+    #fourthComponent-container2{
+        width: 100%;
+    }
+    .motive{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:670px){
+    .motive{
+        width: 100%;
+    }
+}
+/* -----------fifth-component------------ */
+.fifthComponent{
+    padding: 80px;
+    background-image:linear-gradient(45deg,#100018 0%,#26006c 50%,#110038 100%);
+    opacity: 0.9;
+}
+.fifthComponent h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.fifthComponent-para1{
+    color:#f7b205;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+@media only screen and (max-width:1110px){
+    .fifthComponent{
+        padding:50px;
+        padding-left: 10px;
+    }
+    .fifthComponent div{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .fifthComponent h1{
+        font-size: 30px;
+        margin: 0px;
+    }
+    .fifthComponent-para1{
+        
+    }
+}
+
+/*---------------review component && sixth-component-------------*/
+.review-container{
+    min-width: 500px;
+    margin: 40px 40px;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+}
+.student-image img{
+    height: 80px;
+    width: 80px;
+    margin-left: -35px;
+    border-radius: 100%;
+    border:3px solid white;
+    box-shadow:2px 5px 20px 10px #dbdbdb, 0px -2px 20px 10px #dbdbdb; ;
+}
+.review-para{
+    line-height: 1.8;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.review-main-container{
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.review-main-container::-webkit-scrollbar{
+    display: none;
+}
+.review-data{
+    margin-left: 20px;
+}
+@media only screen and (max-width:1100px){
+    .review-main-container{
+        width: 75%;
+        margin-left: 12%;
+    }
+}
+@media only screen and (max-width:670px){
+    .review-main-container{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .review-data{
+        width: 250px;
+    }
+}
