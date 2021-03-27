@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/e-learning/static/css/main.d5c025e3.chunk.css",
+    "main.js": "/e-learning/static/js/main.fca25712.chunk.js",
+    "main.js.map": "/e-learning/static/js/main.fca25712.chunk.js.map",
+    "runtime-main.js": "/e-learning/static/js/runtime-main.51a67a53.js",
+    "runtime-main.js.map": "/e-learning/static/js/runtime-main.51a67a53.js.map",
+    "static/js/2.3c3b2001.chunk.js": "/e-learning/static/js/2.3c3b2001.chunk.js",
+    "static/js/2.3c3b2001.chunk.js.map": "/e-learning/static/js/2.3c3b2001.chunk.js.map",
+    "index.html": "/e-learning/index.html",
+    "static/css/main.d5c025e3.chunk.css.map": "/e-learning/static/css/main.d5c025e3.chunk.css.map",
+    "static/js/2.3c3b2001.chunk.js.LICENSE.txt": "/e-learning/static/js/2.3c3b2001.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/e-learning/static/media/austin-distel-wD1LRb9OeEo-unsplash (1).67e4a93a.jpg",
+    "static/media/font-awesome.css": "/e-learning/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/student.14ddc409.jpg": "/e-learning/static/media/student.14ddc409.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51a67a53.js",
+    "static/js/2.3c3b2001.chunk.js",
+    "static/css/main.d5c025e3.chunk.css",
+    "static/js/main.fca25712.chunk.js"
+  ]
+}
